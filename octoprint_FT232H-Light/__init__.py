@@ -3,12 +3,12 @@ from __future__ import absolute_import, unicode_literals
 
 import octoprint.plugin
 from octoprint.events import Events
-import flask
 import time
 import board
-import digitalio
+import flask
 
-import Adafruit-Blinka as GPIO
+
+import digitalio as GPIO
 
 GPIO.setmode(GPIO.BOARD)
 GPIO.setwarnings(False)
